@@ -1,0 +1,52 @@
+.back-images {
+    position: relative; /* Positionne les enfants en fonction du conteneur */
+    width: 50%; /* Ajustez selon vos besoins */
+    height: 400px; /* Hauteur du conteneur, ajustez selon vos images */
+    overflow: hidden; /* Cache les parties débordantes */
+    background-size: cover;
+    background-position: center;
+}
+
+.back-images div {
+    position: absolute; /* Chaque image se superpose */
+    top: 0;
+    left: 0;
+    width: 100%; /* Chaque image remplit le conteneur */
+    height: 100%; /* Même hauteur que le conteneur */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Ajoute une transition fluide */
+    opacity: 0; /* Les images sont cachées par défaut */
+}
+
+.back-images div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste les images sans déformation */
+}
+
+/* Styles pour l'effet décroissant */
+.back-image1 {
+    z-index: 3;
+    transform: translateX(0); /* Image principale */
+    opacity: 1; /* Visibilité de la première image */
+}
+
+.back-image2 {
+    z-index: 2;
+    transform: translateX(-10%); /* Légèrement décalée */
+    opacity: 0.8; /* Semi-visible */
+}
+
+.back-image3 {
+    z-index: 1;
+    transform: translateX(-20%); /* Plus décalée */
+    opacity: 0.6; /* Moins visible */
+}
+
+/* Effet de défilement : Changez les classes dynamiquement via JavaScript */
+
+position: absolute;
+    font-size: var(--big-font);
+    font-weight: 500;
+    color: white; /* Assurez-vous que le texte est visible sur le fond */
+    margin-top: 200px;
+    margin-right: 200px;
