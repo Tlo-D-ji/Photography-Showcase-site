@@ -3,18 +3,19 @@
 <head>
                <meta charset="UTF-8">
                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-               <title>Document</title>
+               <title>Lens Legacy</title>
                <link rel="stylesheet" href="Style/style.css">
-
                <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
 </head>
 <body>
+               <!-- ==============First WebPage Section============== -->
                <div class="HomePage">
+                              <!-- Navigation Bar -->
                               <div class="navBar">
-                                             <img src="./images/WebSiteLogo.png" alt="websiteLogo">
-                                             <ul>
+                                             <img src="./images/WebSiteLogo.png" alt="websiteLogo" class="webLogo" >
+                                             <ul id="navLinks">
                                                             <li><a href="#">Home</a></li>
                                                             <li><a href="#">Gallery</a></li>
                                                             <li><a href="#">FeedBack</a></li>
@@ -22,7 +23,10 @@
                                                             <li><a href="#">Services</a></li>
                                                             <li><a href="#">About us</a></li>
                                              </ul>
+                                             <img src="./images/BurgerMenu.png" alt="Burger Menu" class="burgerMenu" id="toggleButton"> 
                               </div>
+
+                              <!-- Presentation section -->
                               <div class="presentation">
                                              <div class="left">
                                                             <h1>Lens Legacy</h1>
@@ -30,45 +34,42 @@
                                                             <button>Explore</button>
                                              </div>
                                              <div class="right">
-                                                            <img src="" alt="Man with camera">
-                                                            <img src="" alt="">
-                                                            <img src="" alt="">
+                                                            <img src="./images/img2.png" alt="Zebra" class="img2">
+                                                            <img src="./images/img1.png" alt="Hand with Camera" class="img1">
+                                                            <img src="./images/img0.png" alt="Man with camera" class="img0">
                                              </div>
                               </div>
                </div>
 
+
+
+               <!-- ===============Second WebPage Section=============== -->
                <div class="gallery">
-                             <div class="galTitle">
-                              <div class="rect"></div>
+                             <div class="galleryTitle">
+                              <div class="horizontalBar"></div>
                               <h1>Best Rate</h1>
-                              <div class="rect"></div>
+                              <div class="horizontalBar"></div>
+                             </div>
+                             <div class="galleryImages">
+                              <img src="./images/ElephantGal.png" alt="Elephant Image" class="elephantImg">
+                              <img src="./images/ZebraGal.png" alt="Zebra Image" class="zebraImg">
+
+                              <img src="./images/EagleGal.png" alt="Eagle Image" class="EagleImg" >
+
+                              <img src="./images/DauphinGal.png" alt="Dauphin Image" class="dauphinImg">
+                              <img src="./images/TigerGal.png" alt="Tiger image" class="tigerImg">
+                          
                              </div>
                </div>
 
-      <section class="Services">
-        <h1>Services</h1>
 
-        <model-viewer viewer
-        src = "./models/cinema_camera.glb"
-        camera-controls
-        autoplay
-        scale="2 2 2"
-        >
-        </model-viewer>
 
-        <div class="ctn_txt">
-            <p id="bld" class="reveal">Blender</p>
-            <p id="ani"class="reveal">3D Animation</p>
-            <p id="lr" class="reveal">LightRoom</p>
-        </div>
+               
+               <!-- =================Third WebPage Section================= -->
+               
 
-    <div class="cards">
-        <div id="card1" class="imgs"><a href="#"><div class="glassEffect"><p>Photo</br> Editing</p></div><img src="./images/NewGim1.jpg" alt=""></a></div>
-        <div id="card2" class="imgs"><a href="#"><div class="glassEffect"><p>Photo</br> Shooting</p></div><img src="./images/Gim2.jpg" alt=""></a></div>
-        <div id="card3" class="imgs"><a href="#"><div class="glassEffect"><p>Video</br> Editing</p></div><img src="./images/Gim3.jpg" alt=""></a></div>
-    </div>
-
-    </section>
+               
+               <script src="./Script/BurgerMenu.js"></script>
 
 </body>
 </html>

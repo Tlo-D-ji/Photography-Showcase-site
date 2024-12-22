@@ -1,0 +1,210 @@
+ *{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+
+body{
+  font-family: sans-serif;
+  width: 100vw;
+}
+
+
+
+
+/*=================First WebPage Section=================*/
+
+/* Navigation Bar */
+.HomePage{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/Landscape.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.burgerMenu{
+  display: none;
+  width: 10%;
+  height: 10%;
+}
+
+.navBar{
+  display: flex;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00000096;
+}
+
+.webLogo{
+  width:  6%;
+  height: 6%;
+  margin: 2vh;
+}
+
+
+.navBar ul{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+
+
+.navBar a{
+  color: white;
+  text-decoration: none;
+  font-family:'Inter',sans-serif;
+  font-weight: 200;
+  font-size: 2vw;
+}
+
+/* Presentation section */
+
+.presentation{
+  display: flex;
+  height: 100VH;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.left{
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.left h1{
+  font-family: "Kalnia", sans-serif; 
+  color: white;
+  font-size: 4.5em;
+  font-weight: bold;
+  overflow-y: hidden;
+}
+
+.left p{
+  font-family: 'Inter',sans-serif;
+  color: white;
+  font-size: 1.7em;
+  overflow-y: hidden;
+  margin-top: 4vh;
+}
+
+.left button{
+  background-color: rgba(255, 255, 255, 0.26);
+  color: white;
+  width: 32%;
+  height: 7%;
+  border-radius: 50px;
+  font-size: 2em;
+  outline: none;
+  border: solid 1px white;
+  cursor: pointer;
+  margin-top: 5vh;
+}
+
+.right{
+  height: 85%;
+  width: 50%;
+  display: flex;
+  overflow-y: hidden;
+  align-items: center;
+}
+
+
+.img1{
+  position: relative;
+  z-index: 1;
+  left: 10%;
+}
+
+.img0{
+  position: relative;
+  z-index: 2;
+}
+
+.img2{
+  position: relative;
+  left: 20%;
+}
+
+/*======================Second WebPage Section======================*/
+.gallery{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.galleryTitle{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 4vh;
+}
+
+.horizontalBar{
+  background-color: white;
+  width: 30%;
+  height: 5%;
+  margin-bottom: 1.5vh;
+}
+
+.galleryTitle h1{
+  color: white;
+  font-size: 3vw;
+}
+
+.galleryImages{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EagleImg{
+  z-index: 2;
+  height: 86vh;
+  width: 70vh;
+}
+
+.zebraImg,
+.dauphinImg{
+  z-index: 1;
+}
+
+.zebraImg{
+  position: relative;
+  left: 2%;
+}
+
+.dauphinImg{
+  position: relative;
+  left: -2%;
+}
+
+.tigerImg{
+  position: relative;
+  left: -5%;
+}
+
+.elephantImg{
+  position: relative;
+  left: 5%;
+}
+
+
+/*===============Third WebPage Section===============*/
