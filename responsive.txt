@@ -81,22 +81,5 @@
 }
 
 
-<!-- =================Third WebPage Section================= -->
 
-<div class="services">
-                              <h1>Services</h1>
-                              <div class="3DCamera">
-                                             <img src="" alt="3D Camera Image">
-                                             <img src="" alt="Blender">
-                                             <img src="" alt="3DAnimation">
-                                             <img src="" alt="LightRoom">
-                              </div>
-                              <div class="photoServices">
-                                             <img src="" alt="Photo Editing software">
-                                             <img src="" alt="Photo shooting tool">
-                                             <img src="" alt="Video Editing Software">
-                              </div>
-
-
-               </div>
 

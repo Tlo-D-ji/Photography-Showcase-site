@@ -208,3 +208,56 @@ body{
 
 
 /*===============Third WebPage Section===============*/
+.services{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.services h1{
+  color: white;
+  font-size: 3vw;
+  margin-top: 5vh;
+}
+
+model-viewer {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 20vh;
+}
+
+.buble0,
+.buble1,
+.buble2{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  height: 10vh;
+  width: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.buble0{
+  top: 25vh;
+  left: 150vh;
+}
+
+.buble1{
+  top: 50vh;
+  right: 150vh;
+}
+
+.buble2{
+  top: 85vh;
+  left: 150vh;
+}
