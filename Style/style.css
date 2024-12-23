@@ -1,11 +1,12 @@
- *{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Kalnia:wdth,wght@112.9,100..700&display=swap');
+
+*{
   padding: 0;
   margin: 0;
   overflow-x: hidden;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
 
 
 body{
@@ -260,4 +261,114 @@ model-viewer {
 .buble2{
   top: 85vh;
   left: 150vh;
+}
+
+
+
+/*===============Fourth WebPage Section===============*/
+.specificServices{
+  background-color: black;
+  height: 100vh;
+}
+
+.servicesImg{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20vh;
+}
+
+.servicesImg img{
+  height: 90%;
+}
+
+
+
+/*===============Fifth WebPage Section===============*/
+.commentSection{
+  height: 100vh;
+  background-color: black;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.comment0,
+.comment1,
+.comment2{
+  display: flex;
+  align-items: center;
+  gap: 20vh;
+}
+
+.comment1{
+  justify-content: end;
+}
+
+.comment1 p{
+  text-align: right;
+}
+
+figure img{
+  height: 20vh;
+}
+
+figcaption{
+  color: #006FFF;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.txtComment{
+  color: white;
+  width: 45%;
+  font-size: 1.3em;
+}
+
+
+
+/*===============Sith WebPage Section===============*/
+.aboutSection{
+  height: 100vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  background-color: black;
+  padding-top: 5vh;
+}
+
+.aboutSection h1{
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.aboutInfo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+  height: 60%;
+}
+
+.txtAboutInfo{
+  width: 60%;
+}
+
+.txtAboutInfo p,
+.txtAboutInfo h2{
+    width: 50%;
+    color: white;
+}
+
+.txtAboutInfo h2{
+  margin-bottom: 2vh;
+  font-family: "Artifika", sans-serif;
+  font-size: 1.7em;
+}
+
+.txtAboutInfo p{
+  font-size: 1.5em;
 }
