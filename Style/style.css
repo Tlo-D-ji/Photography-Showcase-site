@@ -372,3 +372,49 @@ figcaption{
 .txtAboutInfo p{
   font-size: 1.5em;
 }
+
+
+.principles{
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3vh;
+}
+
+.principle0{
+  border: solid 4px white;
+  width: 20vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+  right: 10vh;
+}
+
+.principle0 h2{
+  color: white;
+  font-size: 2em;
+  font-family:  "Artifika", sans-serif;
+}
+
+.principleNumber{
+  background-color: black;
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  bottom: 8vh;
+  left: 13vh;
+  z-index: 2;
+}
+
+.principleNumber h1{
+  color: #006FFF;
+}
